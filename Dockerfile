@@ -1,4 +1,4 @@
-FROM node
+FROM node:12.10.0
 
 #configure timezone
 ENV TIMEZONE "America/Detroit"

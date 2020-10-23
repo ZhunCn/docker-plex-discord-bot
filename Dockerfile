@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 #getting source code
 RUN mkdir -p /repo && \
     cd /repo/ && \
-    git clone https://github.com/danxfisher/Plex-Discord-Bot.git && \
+    git clone https://github.com/CyaOnDaNet/Plex-Discord-Bot.git && \
     cd /repo/Plex-Discord-Bot && \
     npm install 
 
